@@ -47,19 +47,34 @@
 //  console.log(aa);
 
 
- var a = 6;
- var b = 8;
- var c =10;
- function large(a,b,c){
-    if(a>b && a>c){
-        return a;
-    }
-    else if(b>a && b>c){
-        return b;
-    }
-    else{
-        return c;
-    }
- }
- var aa= large(a,b,c);
- console.log(aa);
+//  var a = 6;
+//  var b = 8;
+//  var c =10;
+//  function large(a,b,c){
+//     if(a>b && a>c){
+//         return a;
+//     }
+//     else if(b>a && b>c){
+//         return b;
+//     }
+//     else{
+//         return c;
+//     }
+//  }
+//  var aa= large(a,b,c);
+//  console.log(aa);
+
+
+
+// write a function to print number 1 to 10.
+// answer
+
+var rangestart=1; // wrong methord
+var rangeend =10;
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+ 
