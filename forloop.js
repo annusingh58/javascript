@@ -42,13 +42,68 @@
 //     }
 // }
 // printnumbers(rangestart,rangeEnd);
-   //write a
+//write a
 
-   var rangestart = 1;
-   var rangeEnd =100;                
-   function printnumbers(start,end){      
-       for( if (a% 2)){      
-           console.log(a);        
-       }
-   }
-   printnumbers(rangestart,rangeEnd);
+//    var rangestart = 1;
+//    var rangeEnd =100;                
+//    function printnumbers(start,end){      
+//        for( a = start ; a <=end ;a ++){  
+
+//         if(a %2 == 0){
+//             console.log(a);
+//         }
+        
+              
+//        }
+//    }
+//    printnumbers(rangestart,rangeEnd);
+
+
+// find even count
+
+// var rangestart = 1;
+//    var rangeEnd =10;  
+//    function even(start,end){ 
+//     var count=0;     
+//      for( var i = start ; i <=end ;i ++){ 
+//         if(i%2 == 0 ){
+//                 //   console.log(a);
+//                 count++;
+//           }
+
+//      }
+//      return count;
+//     }
+//     var ans = even(1, 10);
+//     console.log(ans);
+
+
+function odd(start,end){ 
+    var count=0;     
+     for( var i = start ; i <=end ;i ++){ 
+        if( i%2 !== 0 ){
+                
+                count++;
+          }
+
+     }
+     return count;
+    }
+    var ans = odd(1, 3);
+    console.log(ans);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
