@@ -43,21 +43,21 @@
 
 // using foor loop
 
-var studentlist =["anu","kunal","ponam","abhi","shnel","swaraj"];
-console.log(studentlist[2])
+// var studentlist =["anu","kunal","ponam","abhi","shnel","swaraj"];
+// console.log(studentlist[2])
 
-console.log(studentlist.length)
-for(var i=0; i < studentlist.length; i++){
-    console.log(studentlist[i],i)
-}
+// console.log(studentlist.length)
+// for(var i=0; i < studentlist.length; i++){
+//     console.log(studentlist[i],i)
+// }
 
-for(var i=0; i < studentlist.length; i++){
+// for(var i=0; i < studentlist.length; i++){
 
-    if(studentlist[i]="swaraj"){
-        console.log("kunal is in oue data")
+//     if(studentlist[i]="swaraj"){
+//         console.log("kunal is in oue data")
 
-    }
-}
+//     }
+// }
 
 
 // var flagforswaraj =false;
@@ -89,6 +89,33 @@ for(var i=0; i < studentlist.length; i++){
 // }
 
 
+
+
+// ques find maximum No in array
+// function findmax(arr){
+//     var max = arr [0];
+//     if (arr[1]>max){
+//         max = arr[1]
+//     }
+//     return max;
+// }
+// var arr = [12345 ,12345678];
+// console.log(findmax(arr))
+
+
+
+//  using for loop
+// function findmax(arr){
+//     var max = arr [0];
+//     for(var i =1; i < arr.length; i++)
+//     if (arr[i]>max){
+//         max = arr[i]
+//     }
+//     return max;
+// }
+// var arr = [12345 ,12345678,1,2,3,456,789,1234,];
+// console.log(findmax(arr))
+ find minimum no
 
 
 
