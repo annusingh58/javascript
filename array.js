@@ -115,8 +115,20 @@
 // }
 // var arr = [12345 ,12345678,1,2,3,456,789,1234,];
 // console.log(findmax(arr))
- find minimum no
 
+//  find minimum Number
+
+
+function findmin(arr){
+    var min = arr [0];
+    for(var i =1; i < arr.length; i++)
+    if (arr[i]<min){
+        min = arr[i]
+    }
+    return min;
+}
+var arr = [12345 ,12345678,1,2,3,456,789,1234,0,-1,];
+console.log(findmin(arr))
 
 
 
