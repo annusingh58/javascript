@@ -15,11 +15,12 @@ for (var i = 0; i< fruits.length;i++){
     }
 }
 
-// console.log("flag is here -",flag)
-// if(flag==false){
-//     console.log("orange is not in our array")
-// }
-// else{
-//     console.log("orange is in our array")
+console.log("flag is here -",flag)
+if(flag==false){
+    console.log("orange is not in our array")
+}
+else{
+    console.log("orange is in our array")
 
-// }
+}
+
